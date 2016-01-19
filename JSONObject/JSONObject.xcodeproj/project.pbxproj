@@ -13,6 +13,8 @@
 		1885B8BF1C4E002100B9336E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1885B8BE1C4E002100B9336E /* Assets.xcassets */; };
 		1885B8C21C4E002100B9336E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1885B8C01C4E002100B9336E /* LaunchScreen.storyboard */; };
 		1885B8CD1C4E002100B9336E /* JSONObjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1885B8CC1C4E002100B9336E /* JSONObjectTests.swift */; };
+		1885B8D81C4E005900B9336E /* JSONObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1885B8D71C4E005900B9336E /* JSONObject.swift */; };
+		1885B8DA1C4E00E900B9336E /* NSString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1885B8D91C4E00E900B9336E /* NSString.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		1885B8C81C4E002100B9336E /* JSONObjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JSONObjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1885B8CC1C4E002100B9336E /* JSONObjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONObjectTests.swift; sourceTree = "<group>"; };
 		1885B8CE1C4E002100B9336E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1885B8D71C4E005900B9336E /* JSONObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONObject.swift; sourceTree = "<group>"; };
+		1885B8D91C4E00E900B9336E /* NSString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSString.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +87,8 @@
 				1885B8BE1C4E002100B9336E /* Assets.xcassets */,
 				1885B8C01C4E002100B9336E /* LaunchScreen.storyboard */,
 				1885B8C31C4E002100B9336E /* Info.plist */,
+				1885B8D71C4E005900B9336E /* JSONObject.swift */,
+				1885B8D91C4E00E900B9336E /* NSString.swift */,
 			);
 			path = JSONObject;
 			sourceTree = "<group>";
@@ -200,6 +206,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				1885B8BA1C4E002100B9336E /* ViewController.swift in Sources */,
+				1885B8DA1C4E00E900B9336E /* NSString.swift in Sources */,
+				1885B8D81C4E005900B9336E /* JSONObject.swift in Sources */,
 				1885B8B81C4E002100B9336E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
